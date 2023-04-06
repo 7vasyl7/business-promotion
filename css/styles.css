@@ -1,0 +1,114 @@
+::before,
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+address {
+    font-style: normal;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+body {
+    max-width: 1400px;
+    font-family:  'Poppins', sans-serif;
+    font-style: normal;
+    color: #22343D;
+    background-color: #ffffff;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1152px;
+    padding-left: 21px;
+    padding-right: 21px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/**--------------Header-----------*/
+.header {}
+
+.header-container {display: flex;
+align-items: center;
+width: 100%;
+}
+
+.container {}
+
+.header-logo {display: flex;
+    align-items: center;
+    
+}
+
+.link {}
+
+.logo-product {display: flex;
+    align-items: center;
+gap: 16px;
+margin-left: 22px;
+
+}
+.puk{display: flex;
+gap: 24px;}
+
+.logo-icon {}
+
+.text-product {}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 28px;
+    /* align-self: right; */
+    margin-left: 247px;
+}
+
+.list {}
+
+.header-item {}
+
+.header-button-container {display: flex;
+    margin-left:auto;
+    gap: 24px;
+    
+}
+
+.header-button-in {display: flex;}
+
+.header-button-Up {display: block;}
+
+.header-frame {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.frame {}
