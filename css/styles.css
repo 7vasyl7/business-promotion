@@ -27,8 +27,8 @@ img {
 }
 
 body {
-    max-width: 1400px;
-    font-family:  'Poppins', sans-serif;
+    width: 1400px;
+    font-family:  'Poppins';
     font-style: normal;
     color: #22343D;
     background-color: #ffffff;
@@ -51,6 +51,7 @@ body {
     padding-right: 21px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid red;
 }
 
 
@@ -58,57 +59,89 @@ body {
 .header {}
 
 .header-container {display: flex;
-align-items: center;
+/* align-items: center; */
 width: 100%;
 }
 
-.container {}
 
 .header-logo {display: flex;
     align-items: center;
     
 }
 
-.link {}
+
 
 .logo-product {display: flex;
     align-items: center;
 gap: 16px;
 margin-left: 22px;
-
+margin-right: 237px;
+border: 1px solid salmon;
+font-weight: 700;
+font-size: 30px;
+line-height: 0.93;
+color: #173A56;
 }
-.puk{display: flex;
-gap: 24px;}
 
-.logo-icon {}
+
+
+.logo-icon {
+    width: 40px;
+    height: 36px;
+}
 
 .text-product {}
 
 .header-list {
     display: flex;
     align-items: center;
-    gap: 28px;
-    /* align-self: right; */
-    margin-left: 247px;
+    gap: 30px;
+    margin:24px 24px 24px 0;
+    line-height: 1.75;
+    letter-spacing: 0.05em;
+    color: #22343D;
+    }
+
+
+
+.header-item {
+    font-weight: 400;
+    font-size: 16px;
 }
 
-.list {}
+.button-container  {display: flex; gap: 24px;margin-right: 24px;
+border: 1px solid tomato;}
 
-.header-item {}
+.header-button-in {display: flex;
+padding: 9px 24px;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+border: 0;
+border: 1px solid #BCD0E5;
+border-radius: 4px;
 
-.header-button-container {display: flex;
-    margin-left:auto;
-    gap: 24px;
-    
+
+
+text-align: center;
+
+color: #173A56;}
+
+.header-button-Up {padding: 9px 24px;
+font-weight: 600;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+border: 0;
+border-radius: 4px;
+background: #02897A;
 }
-
-.header-button-in {display: flex;}
-
-.header-button-Up {display: block;}
 
 .header-frame {
-    margin-left: 24px;
+   
     margin-right: 24px;
+    border: 1px solid tomato;
 }
 
 .frame {}
